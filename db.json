@@ -1,14 +1,22 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
+  "users": [
+    { "userId": 1, "name": "Arslan", "adress":"PO Box 06, Pakistan" },
+    { "userId": 2, "name": "Ali", "adress":"PO Box 254, Germany" },
+    { "userId": 3, "name": "Alex", "adress":"PO Box 546, Hongkong" },
+    { "userId": 4, "name": "Basir", "adress":"PO Box 46, Malaysia" },
+    { "userId": 5, "name": "Henna", "adress":"PO Box 7896, USA" },
+    { "userId": 6, "name": "Tom", "adress":"PO Box 112, UK" },
+    { "userId": 7, "name": "Jaslin", "adress":"PO Box 2546, Australia" },
+    { "userId": 8, "name": "Parker", "adress":"PO Box 889, Italy" },
+    { "userId": 9, "name": "Nina", "adress":"PO Box 8896, France" },
+    
     { "id": 3, "title": "Post 3" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
+  "albums": [
+    { "albumId": 1, "body": "some comment", "userId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "photos": [
+    {"photoId": 1, "name":"trees", "link":"", "albumId":1}
+    ]
 }
